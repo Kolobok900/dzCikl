@@ -1,13 +1,13 @@
 <?php
 for ($i = 1; $i <= 100; $i++) {
-    $isPrime = true;
+    $prostoe = true;
     for ($j = 2; $j < $i; $j++) {
         if ($i % $j == 0) {
-            $isPrime = false;
+            $prostoe = false;
             break;
         }
     }
-    if ($isPrime) {
+    if ($prostoe) {
         echo $i . " ";
     }
 }
